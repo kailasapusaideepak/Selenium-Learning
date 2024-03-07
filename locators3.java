@@ -10,7 +10,7 @@ public class locators3 {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		// Parent to child 
+		// Parent to child traverse mechanism
 		// Absolute Xpath:- //html/body/header/div/button[1]/following-sibling::button[1] { we need to start with / and travel from root to child
 		// Relative Xpath:- //header/div/button[1]/following-sibling::button[1] { we need to start with // and start from any point (Good pratice)
 		
