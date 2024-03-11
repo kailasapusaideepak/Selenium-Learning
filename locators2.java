@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 
-public class locators2 {
+public class Locators2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
