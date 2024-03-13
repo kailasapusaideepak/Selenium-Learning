@@ -62,7 +62,7 @@ public class EcommerceApp {
 			String[] name = products.get(i).getText().split("-");
 			// Brocolli , 1kg This is after split
 			// now we need to remove the space as well
-			String formattedName = name[0].trim();
+			String formattedName = name[0].trim(); //by trim method space will be removed in text brocolli
 
 			// Convert array into arraylist for easy search
 			List itemsNeededList = Arrays.asList(itemsNeeded);
