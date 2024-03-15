@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 // Here I learned how to add items to the cart dynamically and apply promo code at checkout 
 // and also how to use implicit and explicit waits and there advantages and dis-avantages
+// Fluent wait it finds the web element repeatedly at the regural intervals of time until timeout or the object got found.
 
 
 
