@@ -38,7 +38,7 @@ public class CalenderAuth {
 		driver.findElement(By.cssSelector(".react-calendar__navigation__label__labelText")).click();
 		String datesRange=driver.findElement(By.className("react-calendar__navigation__label")).getText();
 		System.out.println(datesRange);
-		System.out.println(datesRange.split(" "));
+		
 		driver.findElement(By.xpath("//button[text()='"+year+"']")).click();
 		driver.findElements(By.cssSelector(".react-calendar__year-view__months__month")).get(Integer.parseInt(month)-1).click();
 		driver.findElement(By.xpath("//abbr[contains(text(),'"+date+"')]")).click();
