@@ -11,6 +11,7 @@ import org.apache.commons.io.FileUtils;
 // here i have praticed how to maximize the window 
 // how to delete and add the cookies to the webpage
 // how to take screenshot of webpage
+// how to take screenshot of webelement was done in newwindow class
 
 public class Miscellenous {
 

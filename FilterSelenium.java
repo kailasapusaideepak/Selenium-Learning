@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 
-// Checking the search filter items displayed with that text
+// Checking the search filter items displaying the text related to search text
 public class FilterSelenium {
 
 	public static void main(String[] args) {
