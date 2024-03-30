@@ -57,7 +57,7 @@ public class locators {
 		
 		driver.findElement(By.id("inputUsername")).sendKeys("Kd");
 		
-		// By using Css expressions to find the element
+		// By using Css regural expressions to find the element
 		driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
 		
 		driver.findElement(By.cssSelector("input#chkboxOne")).click();

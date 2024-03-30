@@ -28,7 +28,7 @@ public class Locators2 {
 		
 		driver.findElement(By.className("signInBtn")).click();
 		
-		// Here even tough we used implicitly wait time if selenium webdriver finds that P tag name it will perfrom action so thats the reason 
+		// Here even though we used implicitly wait time if selenium webdriver finds that P tag name it will perfrom action so thats the reason 
 		// we are using thread.sleep by forcing the webpage to load. Here the link is not changing when the action is performed
 		Thread.sleep(2000);
 		

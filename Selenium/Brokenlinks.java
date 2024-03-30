@@ -17,6 +17,16 @@ import org.testng.asserts.SoftAssert;
 // how to access url connection
 // what are requestmethods GET, POST, HEAD, PUT, DELETE
 
+//GET: This method is used to request data from a specified resource. It retrieves data from the server without causing any side effects.
+//
+//POST: This method is used to submit data to be processed to a specified resource. It often results in a change in server state or the creation of a new resource.
+//
+//HEAD: This method is similar to GET, but it requests the headers of the resource without actually fetching the resource's body. It's useful for retrieving metadata about a resource without transferring the entire content.
+//
+//PUT: This method is used to upload a representation of a resource to the server. It replaces the current representation of the target resource with the uploaded content.
+//
+//DELETE: This method is used to request the removal of a specified resource.
+
 public class Brokenlinks {
 
 	public static void main(String[] args) throws MalformedURLException, IOException {
