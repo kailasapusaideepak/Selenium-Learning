@@ -1,3 +1,5 @@
+package Selenium;
+
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
@@ -28,8 +30,8 @@ public class ActionDemo {
 		WebElement move = driver.findElement(By.cssSelector("a[href$='/account/login?ret=/']"));
 
 		// moving mouse to the specific element (login tab)
-		// Here the build function perfom the build of that function and perfrom
-		// function executes the function
+		// Here the build function perfom the build of that function and 
+		// perfrom function executes the function
 		a.moveToElement(move).build().perform();
 		
 

@@ -17,7 +17,7 @@ public class AutosuggestiveDD {
 		driver.findElement(By.id("autosuggest")).sendKeys("ind");
 		Thread.sleep(3000);
 		
-		// Here we are selecting the all the options in the suggestions by CSS parent child traverse
+		// Here we are selecting all the options in the suggestions by CSS parent child traverse
 		List<WebElement> options= driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
 		
 		for( WebElement option :options)
